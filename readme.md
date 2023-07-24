@@ -34,7 +34,7 @@ Then, make sure required libraries are installed:
 > /scripts/script.py
 
 2. Execute the following command:
-> python script.js
+> python script.py
 
 3. Validate results
 
