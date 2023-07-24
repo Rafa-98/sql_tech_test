@@ -3,20 +3,14 @@
 All SQL works in SQL Server Database.
 
 First, a new Database must be created and then the following sql must be executed to create the tables:
-> /sql/CREATES_1.sql
-> /sql/CREATES_2.sql
-> /sql/INSERTS_1.sql
+> /sql/CREATES_1.sql  
+> /sql/CREATES_2.sql  
+> /sql/INSERTS_1.sql  
 > /sql/INSERTS_2.sql
 
 ## Ejercicio 1: SQL
 1. Execute the query that can be found at:
 > /sql/Consulta_1.sql
-
-2. Inside the app root folder, open a terminal and run the following command:
-> npm install
-
-3. Now, in the same terminal enter the following command to run the app in dev mode:
-> npm run dev
 
 ## Ejercicio 2: Programación-SQL
 
@@ -24,10 +18,18 @@ Python must be installed inn your computer to execute the script. Open a termina
 > python
 
 Then, make sure required libraries are installed: 
-> pip install pypyodbc
+> pip install pypyodbc  
 > pip install python-dateutil
 
-Now:
+# Set Database config
+1. Open the script file located at:
+> /scripts/script.py
+
+2. Update lines 6, 7 and 8 with your environment (add user and password if necessary, line 17 explains how to set them)
+
+3. Save changes.
+
+# Execute Script
 1. open a terminal at the location of the script file: 
 > /scripts/script.py
 

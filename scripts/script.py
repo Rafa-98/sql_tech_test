@@ -5,8 +5,7 @@ from dateutil.relativedelta import relativedelta # pip install python-dateutil
 
 DRIVER_NAME='SQL SERVER'
 SERVER_NAME='Ricardo-pc\SQLEXPRESS'
-#DATABASE_NAME='technical_test_db'
-DATABASE_NAME='tests'
+DATABASE_NAME='technical_test_db'
 
 connection_string = f"""
     DRIVER={{{DRIVER_NAME}}};
